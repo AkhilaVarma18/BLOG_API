@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: codepulse-api
+    name: blog-api
     runtime: docker
     plan: free
     branch: main
