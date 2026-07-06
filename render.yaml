@@ -9,7 +9,7 @@ services:
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
-      - key: ConnectionStrings__CodePulseConnectionString
+      - key: ConnectionStrings__BlogConnectionString
         sync: false
       - key: Jwt__Key
         sync: false
