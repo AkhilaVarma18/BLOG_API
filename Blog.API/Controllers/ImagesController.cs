@@ -28,7 +28,7 @@ namespace Blog.API.Controllers
                     FileExtension = Path.GetExtension(request.File.FileName).ToLower(),
                     FileName = request.FileName,
                     Title = request.Title,
-                    DateCreated = DateTime.Now
+                    DateCreated = DateTime.UtcNow
                 };
 
                 blogImage = await imageRepository.Upload(request.File, blogImage);
